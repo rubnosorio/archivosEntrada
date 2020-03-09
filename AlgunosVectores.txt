@@ -1,0 +1,34 @@
+perro = "perro";
+gato = "gato";
+
+granja = c( c(perro, gato),"vaca", "caballo");
+
+marinos = c("ballena", "tiburon", "pez");
+
+animales = c(domesticos, granja, marinos);
+
+algunosanimales = c(domesticos[1], marinos[2], granja[2]);
+
+iterador = 1;
+
+marinos[4] = "mantarraya"
+marinos[10] = "pepino de mar"
+cantidad = 1;
+for(i in marinos){
+    print(cantidad +". " + i);
+    cantidad = cantidad +1;
+}
+
+#resultado
+#1. ballena
+#2. tiburon
+#3. pez
+#4. mantarraya
+#5. null
+#6. null
+#7. null
+#8. null
+#9. null
+#10. pepino de mar
+
+
